@@ -14,9 +14,13 @@
 #
 # none
 #
-class auto {
+#class auto {
+
+ # hiera_include('classes')
+#}
+
+class auto() {
+  tag 'auto'
 
   hiera_include('classes')
 }
-
-

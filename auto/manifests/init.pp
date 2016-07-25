@@ -14,10 +14,9 @@
 #
 # none
 #
-class auto() {
-  tag 'auto'
+class auto {
 
   hiera_include('classes')
 }
-~             
+
 

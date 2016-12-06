@@ -1,0 +1,62 @@
+2016-06-12 - Version 1.4.1
+- Improved documentation (Issue #8)
+- Workaround to Nokogiri install issue (Issue #9)
+- Updated Gemfile config
+
+2016-04-20 - Version 1.4.0
+- Add feature for arrays of protocols (Mark McKinstry).
+
+2016-04-10 - Version 1.3.1
+- Add Beaker tests and nodesets for CentOS 7, 6, Ubuntu 14.04 and
+  Debian 7 & 8.
+
+2016-03-27 - Version 1.3.0
+- (Issue 5) Add 4.x version of the custom function.
+- Improvements to documentation.
+- Travis CI integration added (Mark McKinstry).
+
+2016-03-26 - Version 1.2.1
+- Fix regression for Puppet 3.x.
+  * workaround for https://tickets.puppetlabs.com/browse/PUP-2523
+  * workaround for
+https://ask.puppetlabs.com/question/15677/custom-recursive-function-fails/
+
+2016-03-24 - Version 1.2.0
+- (Issue 3) Complete rewrite.
+
+Using a custom function plus create_resources it was possible to
+vastly simplify the logic.
+
+2016-03-18 - Version 1.1.3
+- (Issue 2) Bugfix for undefined variable warning.
+
+2016-03-16 - Version 1.1.2
+- Clean up code
+- Add unpack function
+- add unit tests for functions.
+
+2016-03-15 - Version 1.1.1
+- Fix typos in README.md.
+
+2016-03-15 - Version 1.1.0
+- (Issue 1) Add feature supporting arrays of ICMP types.
+- Improved design
+  * source and destination now default to undef
+  * if passed undef, there is no 'from 0.0.0.0/0' added in the title.
+
+2016-03-11 - Version 1.0.5
+- Add PE support to metadata.json.
+
+2016-03-09 - Version 1.0.4
+- Clarify that only puppetlabs/firewall 1.8.0 and later is supported.
+
+2016-03-08 - Version 1.0.3
+- Ok, satisfy Forge's lint rather than my preferred lint config.
+
+2016-03-07 - Version 1.0.2
+- Fix up styling to satisfy lint
+- Modify lint config
+- Updates documentation
+
+2016-03-07 - Version 1.0.1
+- Initial public release

@@ -2,5 +2,6 @@
 
 class profile::base {
         include motd
-	include auto
+        include firewall
+#	include auto
 }
